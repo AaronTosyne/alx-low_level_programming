@@ -7,6 +7,6 @@
  * a function that addtwo int x and y
  */
 
-#define int SUM(x, y) ((x) + (y))
+#define SUM(x, y) ((x) + (y))
 
 #endif
