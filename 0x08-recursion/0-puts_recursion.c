@@ -1,5 +1,9 @@
 #include "main.h"
-
+/*
+ * _puts_recursioon: A function that print a string
+ * followed by a newline.
+ * *s: The pointer pointing to the string
+ */
 
 void _puts_recursion(char *s)
 {
