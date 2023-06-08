@@ -10,8 +10,10 @@ int primefunc(int x, int i)
 {
 	if (i == 1)
 		return (1);
-	if (x % i != 0 && x != i)
-		return (0);
+	else if (x % i != 0 && x != 1)
+		return (1);
+	else
+	       	return (0);
 	return (primefunc(x, i - 1));
 }
 
