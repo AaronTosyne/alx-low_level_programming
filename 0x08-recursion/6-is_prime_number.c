@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * actual_prime - calculates if a number is prime recursively
+ * primefunc - calculates if a number is prime recursively
  * @x: number to evaluate
  * @i: iterator
  *
@@ -12,8 +12,8 @@ int primefunc(int x, int i)
 		return (1);
 	else if (x % i != 0 && x != 1)
 		return (1);
-	else
-	       	return (0);
+	if (x % i == 0 && i > 0)
+		return (0);
 	return (primefunc(x, i - 1));
 }
 
