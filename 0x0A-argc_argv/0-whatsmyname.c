@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * @agrc: count no of arguments
+ * @argc: count no of arguments
  * @argv: An array of arguments
  * @main: to print the name of a file
  *
