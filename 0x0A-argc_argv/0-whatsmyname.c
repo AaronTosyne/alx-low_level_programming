@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /* @agrc: count no of arguments
  * @argv: An array of arguments
@@ -8,7 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%s\n", *argv);
+	printf("%s\n", argv[0]);
 
 	return 0;
 }
