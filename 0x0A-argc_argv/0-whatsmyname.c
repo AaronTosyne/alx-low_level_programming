@@ -8,7 +8,7 @@
 
 int main(int argc, char *argv[])
 {
-	printf("The name of this file is: %s\n",argv[1]);
+	printf("The name of this file is: %s\n",argv[0]);
 
 	return 0;
 }
