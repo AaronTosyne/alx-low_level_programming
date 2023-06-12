@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 
-/* @agrc: count no of arguments
+/**
+ * @agrc: count no of arguments
  * @argv: An array of arguments
+ * @main: to print the name of a file
  *
  * returns 0 when succesful
  */
